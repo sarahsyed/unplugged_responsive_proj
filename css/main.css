@@ -90,8 +90,7 @@ header {
   display:flex;
   justify-content: center;
   text-align:center;
-  padding:15px,0;
-  }
+}
 
 footer {
   display:flex;
@@ -111,19 +110,20 @@ features .feature-items {
 Header
  ======================================================================*/
 .content-wrapper{
-  outline:3px dotted red;
+  outline:3px dotted blue;
   width:90%;
-  margin:50px 0; /*(margin-top and bottom = 50px)*/
+  margin:50px 0;
   
 }
 
 header .content-wrapper {
   outline:3px dotted red;
   display:flex;
+  margin:0;
   align-items:center;
   justify-content:center;
   padding-top:15px;
-  padding-bottom:10px;
+  padding-bottom:15px;
   flex-flow:row wrap;
   
 }
@@ -172,7 +172,7 @@ Features
  }
 
 .features .content-wrapper {
-  margin:50px,0;
+  margin:50px 0;
 }
 
 .features h2 {
@@ -187,7 +187,7 @@ Features
 
 .features article {
   width:63%;
-  margin:30px,0;
+  margin:30px 0;
 
 }
 
@@ -211,7 +211,7 @@ aside {
 }
 
 aside .header-divider {
-  padding:50px,20px;
+  padding:50px 20px;
 }
 aside h3 {
   margin:20px 0;
@@ -267,7 +267,7 @@ aside .email input {
    }
 
    footer h4 {
-    margin:20px,0;
+    margin:20px 0;
    }
 
    footer .contact {
@@ -279,7 +279,7 @@ aside .email input {
   }
 
   footer .copyright {
-    margin:20px,0;
+    margin:20px 0;
   }
 
   
@@ -291,7 +291,15 @@ aside .email input {
 /* ==========================================================================
   FAQ page
    =====================================================================  */
-.faq .content-wrapper {
+.faq {
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-flow:row wrap;
+  
+}
+
+   .faq .content-wrapper {
   display:flex;
   justify-content:center;
   align-items:flex-start;
@@ -304,34 +312,38 @@ aside .email input {
 }
 
 .faq p {
-  margin-bottom:50px;
-}
+ /* margin-bottom:50px;*/
+ margin-bottom:50px;
+ }
 
 .faq h4 {
-  margin-bottom:50px;
+ /* margin-bottom:50px;*/
 }
-
-
 
 
 /* ==========================================================================
   about page
    ========================================================================== */
-   .mission {
+  .mission {
     display:flex;
     justify-content: center;
-   }
+  }
   
   .mission .content-wrapper {
-    margin:50px,0;
+    margin:50px 0;
   }
-.contact-section {
+ .contact-section {
   display:flex;
   justify-content:center;
-}
-.contact-content p {
+  
+ }
+
+ .contact-section h2 {
+  
+ }
+ .contact-content p {
  margin:0;
-}
+ }
 
 /* ==========================================================================
   Footer page

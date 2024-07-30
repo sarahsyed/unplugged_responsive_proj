@@ -344,51 +344,73 @@ footer .copyright p {
   /*Tablet styles here*/
 
   .content-wrapper {
-    display: flex;
-    width:640px;
+    max-width:640px;
+    margin:100px 0;
+  }
+
+  header {
+    margin:33px 0;
+   
   }
   header .content-wrapper {
-    display:flex;
-    margin:33px 0;
-    /*align-content:flex-end;*/
-    justify-content:flex-end;
+    width:100%;
+    justify-content:space-between;
   }
 
   header .header-divider {
-    margin:0;
+    display:none;
+  }
+
+  header nav {
+    width:20%;
   }
 
   header nav ul {
-    justify-content: center;
+    justify-content:space-around;
+    
   }
 
   .hero-area .content-wrapper {
     display:flex;
-    padding:100px 0;
-    justify-content:space-between;
-    align-content: center;
-    text-align:center;
-    flex-flow: column;
+    /*padding:100px 0;
+    justify-content:space-around;
+    text-align: center;*/
   }
 
   .hero-area h1 {
     margin:0;
-    width:85%;
+    width:83%;
   }
   aside .content-wrapper {
-    padding:50px 0;
-    justify-content: center;
-    align-content: center;
-    width:100%;
+    margin:50px 0;
+    display:flex;
+    justify-content:space-between;
+    align-content:flex-start;
   }
 
-  aside .form-description {
-    margin:0;
-    width:40%;
+  aside .form-description, aside .form {
+   margin:0;
+   width:40%;
+    
   }
 
-  
+  .features h2 {
+    margin:0 0 20px 0;
+  }
 
+  .features article {
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    flex-basis: 50%;
+   }
+   .features .features-items {
+     width:50%;
+     display: flex;
+     align-items: center;
+     flex-flow: column wrap;
+     flex-basis: 50%;
+   }
   
 }
 

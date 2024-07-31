@@ -394,8 +394,12 @@ footer .copyright p {
     
   }
 
+  .features .content-wrapper {
+    margin:100px 0;
+  }
+
   .features h2 {
-    margin:0 0 20px 0;
+    margin-bottom:20px;
   }
 
   .features article {
@@ -408,6 +412,15 @@ footer .copyright p {
    .features .features-items {
      width:50%;
          
+   } 
+
+   .reviews article {
+    display:flex;
+    justify-content:space-between;
+   }
+
+   .reviews article div {
+    width:49%;
    }
   
 }

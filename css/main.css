@@ -109,7 +109,7 @@ features .feature-items {
 /*==========================================================================
 Header
  ======================================================================*/
-.content-wrapper{
+.content-wrapper {
   outline:3px dotted blue;
   width:90%;
   margin:50px 0;
@@ -117,7 +117,7 @@ Header
 }
 
 header .content-wrapper {
-  outline:3px dotted red;
+ /* outline:3px dotted red;*/
   display:flex;
   margin:0;
   align-items:center;
@@ -337,7 +337,9 @@ footer p {
 footer .copyright p {
   margin:20px 0;
 }
-
+/* ==========================================================================
+  Code for Tablet
+   ========================================================================== */
 
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
@@ -423,30 +425,74 @@ footer .copyright p {
    }
 
    /*===========================
-      footer
+      footer for Tablet
     ============================ */
+    footer .content-wrapper {
+      width:65%;
+    }
     
-    div .footer-content {
+    .footer-content {
       display:flex;
       justify-content:space-between;
-      flex-flow: row wrap;
+      align-items:center;
     }
 
     footer .contact {
-      width: 30%;
       margin:0;
      }
 
-    footer .social {
-      width: 30%;
+    
+
+   /*===========================
+      About Page for Tablet
+    ============================ */
+    /*.content-wrapper {
+      outline:3px dotted green;
+      max-height:350px;
+
+     }*/
+
+    .mission h2 {
+      margin-bottom:20px;
     }
 
-    footer h4 {
-      margin-bottom:40px;
+    .mission .content-wrapper .mission-content {
+      display:flex;
+      justify-content:flex-start;
+      align-items:center;
     }
 
+    .mission-content p {
+      width: 45%;
+    }
+
+
+    .contact-content  {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+    .contact-section .content-wrapper h2 {
+     width:90%;
+    }
+
+    /* ================
+   FAQ Page for Tablet
+   ==================== */
+   .faq .content-wrapper {
+    justify-content:space-between;
+   }
+
+   .faq h2 {
+    width:100%;
+   }
+
+   section .questions-content  {
+    flex-basis:50%;
    
-  
+   }
+
 }
 
 /* ==========================================================================

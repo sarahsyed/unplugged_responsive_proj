@@ -489,9 +489,10 @@ footer .copyright p {
    }
 
    section .questions-content  {
-    flex-basis:50%;
-   
+    flex-basis: 45%;
+    
    }
+  
 
 }
 

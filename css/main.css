@@ -492,9 +492,51 @@ footer .copyright p {
     flex-basis: 45%;
     
    }
-  
+}
+
+ /* ================
+   Homepage for Desktop
+   ==================== */
+
+@media only screen and (min-width: 1200px) {
+.content-wrapper {
+  max-width:960px;
+}
+
+.hero-area .content-wrapper {
+  display:flex;
+  flex-flow:column wrap;
+  text-align:left;
+}
+
+.features article {
+  display: flex;
+  flex-basis: 33%;
 
 }
+.features .features-items {
+  width: 100%;
+}
+
+.reviews .content-wrapper h2 {
+  margin-bottom:50px;
+  width:72%;
+}
+
+.reviews article div {
+  justify-content: space-between;
+  flex-flow: column wrap;
+  flex-basis: 32%;
+ 
+}
+
+
+
+
+
+
+
+
 
 /* ==========================================================================
    Helper classes

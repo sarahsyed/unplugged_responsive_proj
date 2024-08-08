@@ -499,7 +499,8 @@ footer .copyright p {
    ==================== */
 
 @media only screen and (min-width: 1200px) {
-.content-wrapper {
+
+  .content-wrapper {
   max-width:960px;
 }
 
@@ -509,13 +510,22 @@ footer .copyright p {
   text-align:left;
 }
 
+aside .form-description, aside .form {
+  margin: 0;
+  width: 25%;
+}
+
+.features h2 {
+  width: 90%;
+}
+
 .features article {
   display: flex;
   flex-basis: 33%;
-
 }
+
 .features .features-items {
-  width: 100%;
+  width: 80%;
 }
 
 .reviews .content-wrapper h2 {

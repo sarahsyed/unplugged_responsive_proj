@@ -194,8 +194,7 @@ Features
   align-items:flex-start;
   justify-content: center;
   flex-flow:row wrap;
-  /*width:65%;*/
-  /*padding:50px,0;*/
+  
 }
 
 /* ==========================================================================
@@ -401,6 +400,7 @@ footer .copyright p {
 
   .features h2 {
     margin-bottom:20px;
+    width: 95%;
   }
 
   .features article {
@@ -410,10 +410,11 @@ footer .copyright p {
     flex-basis:50%;
     
    }
-   .features .features-items {
-     width:50%;
-         
-   } 
+
+   .features p {
+     padding-bottom: 30px;
+     width: 50%;
+   }
 
    .reviews article {
     display: flex;
@@ -500,47 +501,81 @@ footer .copyright p {
 
 @media only screen and (min-width: 1200px) {
 
-  .content-wrapper {
+ .content-wrapper {
   max-width:960px;
-}
+ }
 
-.hero-area .content-wrapper {
+ .hero-area .content-wrapper {
   display:flex;
   flex-flow:column wrap;
   text-align:left;
-}
+ }
 
-aside .form-description, aside .form {
+ aside .form-description, aside .form {
   margin: 0;
   width: 25%;
-}
+ } 
 
-.features h2 {
+ .features h2 {
   width: 90%;
-}
+ }
 
-.features article {
+ .features article {
   display: flex;
   flex-basis: 33%;
-}
+ }
 
-.features .features-items {
+ /*.features .features-items {
   width: 80%;
-}
+ }*/
 
-.reviews .content-wrapper h2 {
+ .reviews .content-wrapper h2 {
   margin-bottom:50px;
   width:72%;
-}
+ }
 
-.reviews article div {
+ .reviews article div {
   justify-content: space-between;
   flex-flow: column wrap;
   flex-basis: 32%;
  
+ }
+
+ /*=============
+   About page for Desktop
+   ==================== */
+   .mission .content-wrapper {
+    width:99%;
+   }
+
+
+  /*=============
+   FAQ page for Desktop
+   ==================== */
+   .faq h2 {
+    width: 70%;
+   }
+
+   .faq p {
+    width:80%;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
-
-
 
 
 

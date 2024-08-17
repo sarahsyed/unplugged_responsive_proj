@@ -86,10 +86,104 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*General Styles*/
+html {
+ font-size: 1rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align:left;
+}
+
+ul,
+ol {
+ font-size: 18px;
+ font-weight: bold;
+
+}
+
+a {
+ color: #e2e3ed;
+ text-decoration: none;
+}
+
+h1 {
+  font-size:2em;
+  font-weight:500;
+  line-height:43px;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size:1.88em;
+
+}
+
+h3,
+h4  {
+  font-family: 'Poppins', sans-serif;
+  font-size:1.13em;
+  font-weight:500;
+}
+
+p {
+ font-size: 14px;
+ line-height: 18px;
+
+}
+
+image {
+
+
+}
+
+figure {
+
+
+}
+
+address {
+  font-style: normal;
+
+}
+
+.social-icons p {
+  font-size: 21px;
+  background-color:#527158;
+}
+
+aside input[type=text] {
+  font-size:1.13em;
+  font-weight: bold;
+  background-color: #2a423a;
+
+}
+
+.header-divider {
+  background-color: #3a3a3a;
+}
+
+aside, .mission, .faq {
+  background-color:#527158;
+
+}
+
+.reviews h2, .faq h2 {
+  line-height:32px;
+}
+
+.features article p[type=fontawesome-icon] {
+ font-size:60px;
+}
+
 header {
   display:flex;
   justify-content: center;
   text-align:center;
+  background-color: #202322;
 }
 
 footer {
@@ -98,10 +192,16 @@ footer {
   flex-direction: column;
   text-align:center;
   align-items:center;
+  background-color: #202322;
+
 }
 
 features .feature-items {
   flex-flow:row wrap;
+}
+
+.button, .reviews, .contact {
+  background-color: #2a423a;
 }
 
 /*mobile*/

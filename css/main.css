@@ -216,7 +216,20 @@ aside, .mission, .faq {
 /*==========================================================================
 Header
  ======================================================================*/
-header {
+ image {
+  width:100%;
+}
+
+figure {
+  margin:0;
+}
+
+header figure {
+  width:60%;
+}
+
+
+ header {
   display:flex;
   justify-content: center;
   background-color: #202322;

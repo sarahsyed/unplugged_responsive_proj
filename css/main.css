@@ -89,6 +89,7 @@ textarea {
 /*General Styles*/
 html {
  font-size: 1rem;
+ color:#e2e3ed;
 }
 
 body {
@@ -150,8 +151,7 @@ address {
 
 }
 
-footer .social, aside, .mission, .faq {
-  font-size: 1.3125em;
+footer .social-icons, aside, .mission, .faq {
   background-color:#527158;
 }
 
@@ -163,9 +163,8 @@ footer .social, aside, .mission, .faq {
 }
 
 nav {
- font-size: 18px;
+ font-size: 1.125em;
  font-weight:bold;
-
 
 }
 
@@ -207,16 +206,29 @@ aside, .mission, .faq {
   line-height:30px;
 }
 
-.button, .reviews, .contact {
+.button, .reviews, .contact-section {
   background-color: #2a423a;
 }
+
+.features .fontawesome-icon{
+  font-size:60px;
+}
+
+footer .social-icons {
+  font-size:21px;
+}
+
+footer address p {
+  font-style:normal;
+}
+
 
 /*mobile*/
 
 /*==========================================================================
 Header
  ======================================================================*/
- image {
+ img {
   width:100%;
 }
 
@@ -225,7 +237,7 @@ figure {
 }
 
 header figure {
-  width:60%;
+  width:70%;
 }
 
 
@@ -310,6 +322,7 @@ footer .social-icons p {
 
 footer p {
   margin:0;
+  line-height:18px;
 }
 
 footer .copyright {
@@ -405,6 +418,8 @@ aside .email .aside-divider {
 aside .email input {
   padding:30px 0;
 }
+
+
 
 /* ==========================================================================
   reviews page
@@ -596,6 +611,10 @@ aside .email input {
       margin:0;
      }
 
+     footer p {
+      line-height:1.125em;
+     }
+
     
 
    /*===========================
@@ -643,6 +662,12 @@ aside .email input {
     width:100%;
    }
 
+   .faq h4, .faq p {
+    font-size:0.875em;
+    line-height:0.984375em;
+
+   }
+
    section .questions-content  {
     flex-basis: 45%;
     
@@ -660,21 +685,21 @@ aside .email input {
   }
 
   h2 {
-    font-size: 36px;;
+    font-size: 2.25em;;
   }
 
   h3,
   h4 {
-    font-size:30px;
+    font-size:1.875em;
   }
 
   .faq h2, .mission h2 {
     font-size:48px;
   }
-.faq h4, p {
+
+.faq h4, .faq p {
   font-size: 18px;
   line-height: 18px;
-
 }
 
  .content-wrapper {

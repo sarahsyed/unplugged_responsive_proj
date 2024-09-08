@@ -665,6 +665,22 @@ aside .email input {
      width:90%;
     }
 
+    .map .map-container {
+      position:relative;
+      padding-bottom:45%;
+      height:0;
+      overflow:hidden;
+     }
+
+     .map .map-container iframe {
+      position: absolute;
+      height:100%;
+      width:100%;
+      top:0;
+      left:0;
+
+     }
+
     /* ================
    FAQ Page for Tablet
    ==================== */
@@ -761,6 +777,21 @@ aside .email input {
    ==================== */
    .mission .content-wrapper {
     width:99%;
+   }
+   .map .map-container {
+    position: relative;
+    width:100%;
+    height:0;
+    padding-bottom: 38%;
+    overflow:hidden;
+   }
+
+   .map .map-container iframe {
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
    }
 
 

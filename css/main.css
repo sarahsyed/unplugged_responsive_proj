@@ -212,6 +212,7 @@ aside, .mission, .faq {
 
 .features .fontawesome-icon{
   font-size:60px;
+  text-align: center;
 }
 
 footer .social-icons {
@@ -221,7 +222,6 @@ footer .social-icons {
 footer address p {
   font-style:normal;
 }
-
 
 /*mobile*/
 
@@ -239,7 +239,6 @@ figure {
 header figure {
   width:70%;
 }
-
 
  header {
   display:flex;
@@ -367,7 +366,6 @@ Features
 .features article {
   margin:30px 0;
   width: 63%;
-
 }
 
 .features article p[type=fontawesome-icon] {
@@ -379,8 +377,12 @@ Features
   align-items:flex-start;
   justify-content: center;
   flex-flow:row wrap;
-  
-}
+ }
+
+ .features i {
+  font-size:1em;
+  margin-bottom:40px;
+ }
 
 /* ==========================================================================
   aside
@@ -394,7 +396,6 @@ aside .aside-divider {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 
 aside h3 {
   margin:20px 0;

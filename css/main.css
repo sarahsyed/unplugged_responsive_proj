@@ -151,7 +151,7 @@ address {
 
 }
 
-footer .social-icons, aside, .mission, .faq {
+footer .social-icons i, aside, .mission, .faq {
   background-color:#527158;
 }
 
@@ -379,10 +379,10 @@ Features
   flex-flow:row wrap;
  }
 
- .features i {
-  font-size:1em;
-  margin-bottom:40px;
- }
+ /*.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+ }*/
 
 /* ==========================================================================
   aside

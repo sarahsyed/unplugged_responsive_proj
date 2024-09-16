@@ -161,7 +161,7 @@ footer .social-icons i {
 }
 
 .content-wrapper {
-  outline:3px dotted blue;
+ /* outline:3px dotted blue;*/
   width:90%;
   margin:50px 0;
   
@@ -346,6 +346,11 @@ footer .copyright {
 
 }
 
+.hero-area .content-wrapper img {
+ 
+  border-image:url(unplugged-retreat.jpg) 100%;
+}
+
 /*==========================================================================
 Features 
  ========================================================================== */
@@ -360,6 +365,7 @@ Features
 
 .features h2 {
   margin-bottom:60px;
+  border:
  }
  
  

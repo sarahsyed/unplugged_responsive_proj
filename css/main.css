@@ -340,16 +340,21 @@ footer .copyright {
    ========================================================================== */
 
 .hero-area  {
+  background-image: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display:flex;
-  text-align:center;
-  align-items:center;
+  min-height: 500px;
   justify-content: center;
-
+ 
 }
 
-.hero-area .content-wrapper img {
- 
-  border-image:url(unplugged-retreat.jpg) 100%;
+.hero-area h1 {
+  font-size:2.25em;
+  font-weight:500;
+  line-height:1.194;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
 }
 
 /*==========================================================================
@@ -358,6 +363,11 @@ Features
 .features {
   display:flex;
   justify-content: center;
+  background-image: url(../img/unplugged-retreat-features.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
  }
 
 .features .content-wrapper {
@@ -366,7 +376,7 @@ Features
 
 .features h2 {
   margin-bottom:60px;
-  border:
+  border: none;
  }
  
  
@@ -570,14 +580,16 @@ aside .email input {
 
   .hero-area .content-wrapper {
     display:flex;
-    /*padding:100px 0;
-    justify-content:space-around;
-    text-align: center;*/
+    padding:0 100px;
+    justify-content:center;
+    width: 45%;
+    margin-top: 0px;
+    margin-bottom: 195px;
   }
 
   .hero-area h1 {
     margin:0;
-    width:83%;
+    width:90%;
   }
   aside .content-wrapper {
     margin:50px 0;

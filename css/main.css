@@ -136,14 +136,13 @@ p {
 
 }
 
-image {
-
-
+img {
+  width: 50%;
 }
 
 figure {
-
-
+ width:50%;
+ 
 }
 
 address {
@@ -231,7 +230,7 @@ footer address p {
 /*mobile*/
 
 /*==========================================================================
-Header
+Header Mobile
  ======================================================================*/
  img {
   width:100%;
@@ -283,7 +282,7 @@ header nav ul {
 }
 
 /* ==========================================================================
-  Footer page
+  Footer page Mobile
    ========================================================================== */
   footer {
     display:flex;
@@ -336,7 +335,7 @@ footer .copyright {
 
 
 /* ==========================================================================
-  hero-area
+  hero-area Mobile
    ========================================================================== */
 
 .hero-area  {
@@ -358,7 +357,7 @@ footer .copyright {
 }
 
 /*==========================================================================
-Features 
+Features Mobile
  ========================================================================== */
 .features {
   display:flex;
@@ -378,7 +377,6 @@ Features
   margin-bottom:60px;
   border: none;
  }
- 
  
  .features p  {
   margin:0;
@@ -401,13 +399,8 @@ Features
   flex-flow:row wrap;
  }
 
- /*.features i {
-  font-size: 3.75em;
-  margin-bottom: 40px;
- }*/
-
 /* ==========================================================================
-  aside
+  aside mobile
    ========================================================================== */
 aside {
   display: flex;
@@ -424,10 +417,6 @@ aside h3 {
   flex-flow:row wrap;
 }
 
-/*aside p {
-  padding-bottom:30px;
-}*/
-
 aside .email {
   padding-top:1em;
   padding-bottom:1em;
@@ -442,16 +431,13 @@ aside .email input {
   padding:30px 0;
 }
 
-
-
 /* ==========================================================================
-  reviews page
+  reviews page mobile
    ========================================================================== */
 .reviews {
   display:flex;
   justify-content: center;
   
-
 }
 
 .reviews h2 {
@@ -466,7 +452,7 @@ aside .email input {
 
    
 /* ==========================================================================
-  FAQ page
+  FAQ page mobile
    =====================================================================  */
 .faq {
   display:flex;
@@ -603,7 +589,6 @@ aside .email input {
   aside .form-description, aside .form {
    margin:0;
    width:40%;
-    
   }
 
   .features .content-wrapper {
@@ -628,13 +613,26 @@ aside .email input {
      width: 50%;
    }
 
+   /*----------------------
+   reviews tablet
+   ------------------------*/
+   .reviews h2 {
+    /*margin-bottom: 40px;*/
+    width: 85%;
+   }
+
+   .reviews h3 {
+    width: 80%;
+    margin:5px 0;
+  }
+
    .reviews article {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
    }
 
    .reviews article div {
-    width:49%;
+    width: 46%;
    }
 
    /*===========================
@@ -657,8 +655,6 @@ aside .email input {
      footer p {
       line-height:1.125em;
      }
-
-    
 
    /*===========================
       About Page for Tablet
@@ -683,13 +679,12 @@ aside .email input {
       width: 45%;
     }
 
-
     .contact-content  {
       display:flex;
       justify-content: space-between;
       align-items: center;
-      
     }
+
     .contact-section .content-wrapper h2 {
      width:90%;
     }
@@ -729,8 +724,9 @@ aside .email input {
 
    section .questions-content  {
     flex-basis: 45%;
-    
+   
    }
+   
 }
 
  /* ================
@@ -769,6 +765,7 @@ aside .email input {
   display:flex;
   flex-flow:column wrap;
   text-align:left;
+  margin-bottom: 210px;
  }
 
  aside .form-description, aside .form {
@@ -785,21 +782,26 @@ aside .email input {
   flex-basis: 33%;
  }
 
- /*.features .features-items {
-  width: 80%;
- }*/
-
  .reviews .content-wrapper h2 {
   margin-bottom:50px;
-  width:72%;
+  width:80%;
+ }
+
+ .reviews article figure {
+  width:50%;
  }
 
  .reviews article div {
   justify-content: space-between;
   flex-flow: column wrap;
   flex-basis: 32%;
- 
- }
+  }
+
+.reviews h3 {
+  width: 100%;
+  margin:20px 0;
+}
+
 
  /*=============
    About page for Desktop
@@ -834,9 +836,6 @@ aside .email input {
    .faq p {
     width:80%;
    }
-
-
-
 
 }
 

@@ -734,6 +734,9 @@ aside .email input {
    ==================== */
 
 @media only screen and (min-width: 1200px) {
+  img {
+    width: 50%;
+  }
 
   h1 {
     font-size:3.75em;
@@ -761,6 +764,10 @@ aside .email input {
   max-width:960px;
  }
 
+ header .content-wrapper {
+  padding: 15px 0;
+ }
+
  .hero-area .content-wrapper {
   display:flex;
   flex-flow:column wrap;
@@ -772,6 +779,16 @@ aside .email input {
   margin: 0;
   width: 25%;
  } 
+
+ aside .aside-divider {
+  padding-top: 20px;
+  padding-bottom: 0;
+ }
+
+ input[type=button] {
+  padding-top: 20px;
+  margin-top: 0px;
+}
 
  .features h2 {
   width: 90%;

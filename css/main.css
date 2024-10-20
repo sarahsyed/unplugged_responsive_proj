@@ -521,7 +521,7 @@ aside .email input {
 
 @media only screen and (min-width: 768px) {
   /*Tablet styles here*/
-
+ 
   h1 {
     font-size:3em;
     line-height:1;
@@ -551,6 +551,8 @@ aside .email input {
   header .content-wrapper {
     width:100%;
     justify-content:space-between;
+    padding-bottom: 5px;
+    padding-top: 5px;
   }
 
   header .header-divider {
@@ -569,10 +571,9 @@ aside .email input {
   .hero-area .content-wrapper {
     display:flex;
     padding:0 100px;
-    justify-content:center;
-    width: 45%;
-    margin-top: 0px;
-    margin-bottom: 195px;
+    /*justify-content:center;*/
+    width: 65%;
+    margin: 80px 0;
   }
 
   .hero-area h1 {
@@ -586,9 +587,17 @@ aside .email input {
     align-content:flex-start;
   }
 
+
+  aside .aside-divider {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   aside .form-description, aside .form {
    margin:0;
    width:40%;
+   padding-bottom:25px;
+   padding-top:0;
   }
 
   .features .content-wrapper {
@@ -597,7 +606,7 @@ aside .email input {
 
   .features h2 {
     margin-bottom:20px;
-    width: 95%;
+    width: 100%;
   }
 
   .features article {

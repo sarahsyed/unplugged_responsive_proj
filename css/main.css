@@ -151,11 +151,11 @@ address {
 }
 
 footer .social-icons i, aside, .mission, .faq {
-  background-color:#527158;
+  background-color:#18822d;
 }
 
 footer .social-icons i {
-  border-radius: 50px;
+  border-radius: 100px;
   
 }
 
@@ -232,9 +232,9 @@ footer address p {
 /*==========================================================================
 Header Mobile
  ======================================================================*/
- img {
+ /*img {
   width:100%;
-}
+}*/
 
 figure {
   margin:0;
@@ -749,7 +749,7 @@ aside .email input {
   }
   
   img {
-    width: 30%;
+    width: 40%;
   }
 
   h1 {
@@ -784,7 +784,7 @@ aside .email input {
  }
 
  body {
-  font-size: .7em;
+  font-size: .8em;
  }
 
  .hero-area {
@@ -801,8 +801,8 @@ aside .email input {
  }
 
  .hero-area h1 {
-  width:55%;
-  font-size: 3.5em;
+  width: 66%;
+  font-size: 3.4em;
  }
 
  aside .content-wrapper {
@@ -836,6 +836,9 @@ aside .email input {
  .reviews .content-wrapper h2 {
   margin-bottom:50px;
   width:80%;
+ }
+ .reviews img {
+  width: 100%;
  }
 
  .reviews article figure {
